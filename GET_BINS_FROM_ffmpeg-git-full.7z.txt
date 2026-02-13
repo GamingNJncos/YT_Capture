@@ -1,0 +1,16 @@
+Get the bins from ffmpeg-git-full.7z   @  https://www.gyan.dev/ffmpeg/builds/#release-builds
+
+For example copy everything from ffmpeg-8.0.1-full_build.7z\ffmpeg-8.0.1-full_build\bin\ into same dir as .py OR use system path 
+
+=============================================================================
+You do not need to install this inside python. It is a system-level tool.
+
+Download: Go to the Gyan.dev FFmpeg builds (the standard source for Windows).
+
+Download the file labeled ffmpeg-git-full.7z.
+
+Extract: Unzip it. You will see a bin folder containing ffmpeg.exe.
+
+Place it: Copy ffmpeg.exe, ffplay.exe, and ffprobe.exe into the same folder as your archiver.py script.
+
+Alternatively: Add the bin folder to your System PATH if you want it available everywhere, but putting it in the script folder is the easiest "portable" fix.
