@@ -2,7 +2,11 @@
 
 A command-line tool for archiving YT Video content. This does not output videos, it isolates screenshots of the video based on frameskip settings and then the audio channel from that timestamp seperately.  It features smart frame deduplication (ignoring static screens) and high-fidelity audio stream copying.
 
-This was design with a focus on an odd usecase - vintage software preservation and recreation based on old footage. To recreate interfaces videos are very helpful as they actually show animations and on-click behaviors.  Static Images from old magazines etc aren't going to have comprehensive menu click throughs. Need a random frame from e3 1999 to show a special debug menu? Know there is that one thing in that movie when that particular scene happens?
+This was designed with a focus on an odd usecase - vintage software preservation and recreation based on old footage. To recreate interfaces videos are very helpful as they actually show animations and on-click behaviors.  Static Images from old magazines etc aren't going to have comprehensive menu click throughs. Need a random frame from e3 1999 to show a special debug menu? Know there is that one thing in that movie when that particular scene happens?
+
+Help isolate and extract frame by frame menu interactions, software settings, grandpas old bug or in game secret. Go forth and troll Speed Runners frame by frame.  Output format should be named in a way that it's easy to import the images into a LLM and create spiritual successors or "identicial" interfaces, graphics etc (assuming recording FPS is high enough). 
+
+
 ## Setup
 
 1. Install Python 3.10+
