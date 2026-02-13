@@ -1,7 +1,8 @@
 # YT_Capture
 
-A command-line tool for archiving video content with a focus on vintage software preservation. It features smart frame deduplication (ignoring static screens) and high-fidelity audio stream copying.
+A command-line tool for archiving YT Video content. This does not output videos, it isolates screenshots of the video based on frameskip settings and then the audio channel from that timestamp seperately.  It features smart frame deduplication (ignoring static screens) and high-fidelity audio stream copying.
 
+This was design with a focus on an odd usecase - vintage software preservation and recreation based on old footage. To recreate interfaces videos are very helpful as they actually show animations and on-click behaviors.  Static Images from old magazines etc aren't going to have comprehensive menu click throughs. Need a random frame from e3 1999 to show a special debug menu? Know there is that one thing in that movie when that particular scene happens?
 ## Setup
 
 1. Install Python 3.10+
